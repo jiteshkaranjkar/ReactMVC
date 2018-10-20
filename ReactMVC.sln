@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactMVC", "ReactMVC\ReactMVC.csproj", "{C8CFB2C4-BA4C-48F8-B0BA-D5F82B0EE9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactMVC.Tests", "ReactMVC.Tests\ReactMVC.Tests.csproj", "{29FA078D-93F7-4B0F-946E-98CE3B7AEE70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8CFB2C4-BA4C-48F8-B0BA-D5F82B0EE9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CFB2C4-BA4C-48F8-B0BA-D5F82B0EE9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CFB2C4-BA4C-48F8-B0BA-D5F82B0EE9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CFB2C4-BA4C-48F8-B0BA-D5F82B0EE9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FA078D-93F7-4B0F-946E-98CE3B7AEE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FA078D-93F7-4B0F-946E-98CE3B7AEE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FA078D-93F7-4B0F-946E-98CE3B7AEE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FA078D-93F7-4B0F-946E-98CE3B7AEE70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

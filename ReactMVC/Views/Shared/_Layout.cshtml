@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="~Content/bootstrap.min.css">
+</head>
+<body>
+    @RenderBody()
+    <!--Default Navbar Start Here-->
+    <!--<nav> tag  start with classes .navbar and .navbar-default-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!--Navbar Header Start Here-->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">C-sharp Corner</a>
+            </div>
+            <!--Navbar Header End Here-->
+            <!--Menu Start Here-->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <!--Menu End Here-->
+        </div>
+    </nav>
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
